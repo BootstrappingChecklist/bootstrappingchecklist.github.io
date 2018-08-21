@@ -1,0 +1,2 @@
+# bootstrappingchecklist.github.io
+The Bootstrapping Checklist is a grassroots student entrepreneurial learning community that teaches 21st century skills, including communication, collaboration, critical thinking and creativity. The workflow introduces students to project management, innovation and entrepreneurship and engages students in experiential learning activities related to the STEAM curriculum.
