@@ -29,3 +29,13 @@
   hyphens: auto;
 
 }
+
+/* Better base styling for accessibility */
+
+body {
+  color: #767676;
+}
+
+a {
+  color: #008863;
+}
