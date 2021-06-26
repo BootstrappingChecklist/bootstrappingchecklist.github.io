@@ -1,229 +1,615 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128772366-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128772366-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-128772366-1');
-</script>
-  <meta charset="utf-8">
-  <meta name="description" content="The Bootstrapping Checklist is a Student Social-Entrepreneurship Network & Teacher Resource.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Bootstrapping Checklist | Innovation in Education</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css" integrity="sha256-XiJ+PedljEmPP2VaQzSzekfCZdPr0fpqmh9dY6kpsuQ=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/minty/bootstrap.min.css" integrity="sha384-Qt9Hug5NfnQDGMoaQYXN1+PiQvda7poO7/5k4qAmMN6evu0oDFMJTyjqaoTGHdqf" crossorigin="anonymous">
-  <link rel="stylesheet" href="./style.css" />
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
-</head>
-<body>
-<!-- scripts-at-body-opening -->
+      gtag('config', 'UA-128772366-1');
+    </script>
+    
+    <title>The Bootstrapping Checklist</title>
+    <meta name="description" content="The Bootstrapping Checklist is a Student Social-Entrepreneurship Network & Teacher Resource.">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest" crossorigin="use-credentials">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- The Navbar Section -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img src="assets/images/logo/logo.png" width="100" alt="logo image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#steps">Steps</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+          </ul>
+          <a href="#footer">
+            <button type="button" class="rounded-pill btn-rounded">
+              Email
+              <span>
+                <i class="fas fa-envelope"></i>
+              </span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
 
-<!--- /scripts-at-body-opening -->
-<main class="container my-5">
-<div class="mx-auto mw7" style="max-width: 604px;">
+    <!-- The Intro Section -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <!-- Intro Content  -->
+          <div class="col-md-6 intros text-start">
+            <h1 class="display-2">
+              <span class="display-2--intro">The Bootstrapping Checklist</span>
+              <span class="display-2--description lh-base">
+                Student Social-Entrepreneurship Network & Teacher Resource.
+              </span>
+            </h1>
+            <a href="#footer">
+              <button type="button" class="rounded-pill btn-rounded">Get in Touch
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </a>
+          </div>
+          <!-- Bootstrapping Video -->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img src="assets/images/art/top.png" alt="Top Art" class="img-fluid">
+              <a href="https://www.youtube.com/watch?v=th4VGRGxOTc" target="_blank" rel="noopener noreferrer" class="position-absolute top-50 start-50 translate-middle">
+                <span>
+                  <i class="fas fa-play-circle"></i>
+                </span>
+                <span class="border-animation border-animation--border-1"></span>
+                <span class="border-animation border-animation--border-2"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
 
-  <header class="mb-7">
-    <h1 class="font-bitter dark-gray">The Bootstrapping Checklist</h1>
-  </header>
+    <!-- Steps Section -->
+    <section id="steps" class="services">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold">Steps</h1>
+          <div class="heading-line mb-1"></div>
+        </div>
+        <!-- The five step proccess -->
+        <div class="row pt-2 pb-2 mt-0 mb-3">
+          <div class="col-md-6 border-right">
+            <div class="bg-white p-3">
+              <h2 class="fw-bold text-capitalize text-center">
+                The Five Step Proccess
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="bg-white p-4 text-start">
+              <p class="fw-light">
+                Every Bootstrapping project folows the same five step proccess of development. These steps build up a project from scratch and can be repeated if neccesary.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <!-- content -->
-  <div class="dark-gray">
+      <!-- All five steps and repeat -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-pencil-ruler"></div>
+              <h3 class="display-3--title mt-1">Design - Who Are You Serving?</h3>
+              <p class="lh-sm">
+                With your team, create your end-user persona and user journey centered on empathy (we need to care about your persona) to build team vision and later attract mentors and investors. To do this, create a draft storyboard of your end user persona’s pain or struggle that your solution will address - tell their story!<br><br>Next, create a draft Mission Grid (Pain, Solution, Value, Competition).<br><br>Next, create a draft group members personal profile brand cards -  include general statements about team members like hobbies and interests, but make sure to omit all identifiable student data, especially family names and birth dates.<br><br>Lastly, finalize all team member roles - these can include project manager, data management lead, UX designer, UI designer, and marketing manager, among other possible roles.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+            <div class="services__pic">
+              <img src="assets/images/steps/Design.png" alt="Design Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+            <div class="services__pic">
+              <img src="assets/images/steps/Invest.png" alt="Invest Image" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-chalkboard-teacher"></div>
+              <h3 class="display-3--title mt-1">Invest and Mentorship</h3>
+              <p class="lh-sm">
+                Investment doesn’t always come in the form of $$$ - in our case, it comes in the form of mentoring from our critical friends. Ask family and friends in order to get feedback on the draft user persona and journey. As a team, consider adding feedback to the storyboard.<br><br>Next, finalize Mission Grid (Pain, Solution, Value, Competition). Think about potential investor care-abouts - a value proposition that scratches an ‘itch’, or a disruptive solution. A solid and caring team is extremely important for project success and to convince investors and mentors to support you.<br><br>Tell potential mentors and/or investors ‘exclusive info’, and use data to back this up. Ask questions about the world. Give real life experiences that your product or idea would help with. Stress the pain point that your product resolves for your user persona - tell their story.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-hammer"></div>
+              <h3 class="display-3--title mt-1">Build</h3>
+              <p class="lh-md">
+                You can build and then A/B test lots of things such as logos, website or app designs, or even analog products like a new cell phone case or even food! Sometimes we like to A/B test UX (User Experience) and UI (User Interface) for websites or apps (try paper prototyping!).<br><br>Your team will launch both A/B designs at the same time on your LMS - we use Google Forms and Classroom to post A/B prototypes on the stream  - let the ‘crowd’ (your classmates) decide which one they want.  The more a student answers forms from teams, the higher their reputation gets!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+            <div class="services__pic">
+              <img src="assets/images/steps/Build.png" alt="Build Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+            <div class="services__pic">
+              <img src="assets/images/steps/Launch.png" alt="Launch Image" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-box-open"></div>
+              <h3 class="display-3--title mt-1">Launch</h3>
+              <p class="lh-lg">
+                Finalize UX/UI A/B prototypes with the team and launch both A/B designs at the same time on your LMS. Use GC stream (or similar) and GForms (or similar) as usual to launch UX/UI prototypes and get that data!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-chart-pie"></div>
+              <h3 class="display-3--title mt-1">Analyse & Final Presentation</h3>
+              <p class="lh-md">
+                Analyse (interpret) A/B data from GForms (or similar) as a team and decide which to keep and which to drop -  A or B. The prototype that your crowd chooses gets put into your Final Presentation.<br><br>For the Final Presentation, finalize group member personal profile brand cards - omit identifiable student data like age or family name etc. Finalize storyboard. Your team’s final presentation should include the user journey with the final storyboard, finalized UX/UI of the websites or apps (or other), and all team member profile brand cards.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+            <div class="services__pic">
+              <img src="assets/images/steps/Analyze.png" alt="Analyze Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+            <div class="services__pic">
+              <img src="assets/images/steps/Repeat.png" alt="Repeat Image" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <div class="icon d-block fas fa-redo-alt"></div>
+              <h3 class="display-3--title mt-1">Repeat (Only If You Want To!)</h3>
+              <p class="lh-md">
+                Repeat another iteration with the same team if you had a great time, worked well together, or think your project has potential. You can start something new or take the A or B prototype that the team chose from the last round, and split it, again, into another A/B that you will launch again, and so it goes...<br><br>If you decide not to work with the same team members, well here is the good news - you have completed a full cycle, and maybe it was tough, but congratulations,  you did it! You might want to try a new project with a new team, you might want to be project manager next time around, or maybe you don’t want to be project manager again - and that’s ok too!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <div class="my-3">
-        <p class="h4 mb-0">
-            Student Social-Entrepreneurship Network & Teacher Resource.
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <div class="container">
+        <div class="row text-center text-white">
+          <h1 class="display-3 fw-bold">Testimonials</h1>
+          <hr style="width: 100px; height: 3px; " class="mx-auto">
+          <p class="lead pt-1">What people think about us</p>
+        </div>
+        <!-- Testimonials -->
+        <div class="row align-items-center">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Testimonial 1 -->
+              <div class="carousel-item active">
+                <!-- Testimonials card  -->
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    At Reimagine Education, we’re keen to reward pedagogical initiatives that are equipping students with the skills necessary to succeed in the 21st-century economy, valuing as we do the positive formative effects that education should have on employability. In ensuring that students learn – from a young age, and in an engaging, carefully-conceived way – the modes of thinking and hard skills necessary to foster entrepreneurial success, The Bootstrapping Checklist deserves this global recognition. In particular, our Judging Panel commend it for its integration with GitHub, which is a shining example of the project’s efforts to integrate classroom learning with contemporary innovation tools; and its focus on learning as a social, collaborative experience.
+                    <i class="fas fa-quote-right"></i>
+                    <div class="ratings p-1">
+                    </div>
+                  </p>
+                </div>
+                <!-- Image  -->
+                <div class="testimonials__picture">
+                  <img src="assets/images/testimonials/reimagine.jpg" alt="Reimagine Education Image" class="rounded-circle img-fluid">
+                </div>
+                <!-- Name and Role  -->
+                <div class="testimonials__name">
+                  <h3>Reimagine Steering Committee</h3>
+                </div>
+              </div>     
+              <!-- Testimonial 2 -->
+              <div class="carousel-item">
+                <!-- Testimonials card  -->
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    The Bootstrapping Checklist taught me how to collaborate with others virtually.  My experiences have definitely taught me a lot.
+                    <i class="fas fa-quote-right"></i>
+                    <div class="ratings p-1">
+                    </div>
+                  </p>
+                </div>
+                <!-- Image -->
+                <div class="testimonials__picture">
+                  <img src="assets/images/testimonials/logo.jpg" alt="The Bootstrapping Checklist Logo" class="rounded-circle img-fluid">
+                </div>
+                <!-- Name and Role  -->
+                <div class="testimonials__name">
+                  <h3>Harini A.</h3>
+                  <p class="fw-light">Former Bootstrapper</p>
+                </div>
+              </div>     
+              <!-- Testimonial 3 -->
+              <div class="carousel-item">
+                <!-- Testimonials card  -->
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    The Bootstrapping Checklist was definitely an enjoyable process. I have never done anything like this before. I always thought that this sort of process was for people who wanted to be entrepreneurs, but through the bootstrapping checklist I learned it can be for anyone. This is a memorable experience that I will never forget. It was awesome! :)
+                    <i class="fas fa-quote-right"></i>
+                    <div class="ratings p-1">
+                    </div>
+                  </p>
+                </div>
+                <!-- Image  -->
+                <div class="testimonials__picture">
+                  <img src="assets/images/testimonials/logo.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+                </div>
+                <!-- Name and Role  -->
+                <div class="testimonials__name">
+                  <h3>Sakthi K.</h3>
+                  <p class="fw-light">Former Bootstrapper</p>
+                </div>
+              </div>     
+              <!-- Testimonial 4 -->
+              <div class="carousel-item">
+                <!-- Testimonials card  -->
+                <div class="testimonials__card">
+                  <p class="lh-lg">
+                    <i class="fas fa-quote-left"></i>
+                    The Bootstrapping Checklist is the best project for practising leadership and innovation, because when everyone is thinking, everyone has fun.
+                    <i class="fas fa-quote-right"></i>
+                    <div class="ratings p-1">
+                    </div>
+                  </p>
+                </div>
+                <!-- Image  -->
+                <div class="testimonials__picture">
+                  <img src="assets/images/testimonials/logo.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+                </div>
+                <!-- Name and Role  -->
+                <div class="testimonials__name">
+                  <h3>Allen H.</h3>
+                  <p class="fw-light">Former Bootstrapper</p>
+                </div>
+              </div>     
+            </div>
+            <div class="text-center">
+              <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            </button>
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+        <div class="heading-line"></div>
+        <p class="lead">Answers to some of the most frequently asked questions.</p>
+      </div>
+      <!-- ACCORDION CONTENT  -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="accordion" id="accordionExample">
+            <!-- Question 1 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  How do I start?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You can start with an idea. When you spot a problem in your day-to-day life, write it down. Then brainstorm possible solutions. Next you can pitch your idea of a solution to this problem to people. The people you pitch to can be your friends, colleagues or anyone really. After hearing your pitch people might want to join you in your journey of expanding your idea. Now you and your team will go through the stages of the bootstrapping checklist. Have fun!
+                </div>
+              </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How long does each project take?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  A project can take one week or half a year. It really depends on what you want to do. You get to decide how much time to spend on your project. You could do an hour everyday or you could do two. When working on your project you can either rapid prototype or just prototype each thing slowly. It's your choice. But one thing is for sure, your project will last forever. You can always go back and edit or improve it for your users.
+                </div>
+              </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How many people do I need in my group to start?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  There is no actual number of people that you need to start. You can start with a partner or with 6 people. In your groups you might want to assign roles so that it won't be confusing. Some of the roles are founder, co-founder, designer and data manager.
+                </div>
+              </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="accordion-item shadow mb-3">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  May I work on multiple projects at once?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  When you start or join one project, you are fully committed to that project. You belong to that project and your mind is fully focused on the project. Throughout the whole 5 step process you belong to your team and you have to work through everything with them. Please do not leave half way through the process and join another group. 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="portfolio">
+    <div class="container">
+      <div class="row text-center mt-5">
+        <h1 class="display-3 fw-bold text-capitalize">Student Projects</h1>
+        <div class="heading-line"></div>
+        <p class="lead">
+          Some of the projects our students have done.
         </p>
-
-        <div>
-            <iframe width='604' height='340' src='https://videopress.com/embed/DClKQ4vm?hd=0&amp;autoPlay=0&amp;permalink=0&amp;loop=0' allowfullscreen></iframe><script src='https://v0.wordpress.com/js/next/videopress-iframe.js?m=1435166243'></script>
-        </div>
-
-        <div class="py-1">
- 
-            <p>
-            “At Reimagine Education, we’re keen to reward pedagogical initiatives that are equipping students with the skills necessary to succeed in the 21st-century economy, valuing as we do the positive formative effects that education should have on employability. In ensuring that students learn – from a young age, and in an engaging, carefully-conceived way – the modes of thinking and hard skills necessary to foster entrepreneurial success, The Bootstrapping Checklist deserves this global recognition. In particular, our Judging Panel commend it for its integration with GitHub, which is a shining example of the project’s efforts to integrate classroom learning with contemporary innovation tools; and its focus on learning as a social, collaborative experience.” Reimagine Steering Committee, 2020
-            <p>
-             <p class="text-center">
-        <img data-attachment-id="868" data-permalink="https://raw.githubusercontent.com/BootstrappingChecklist/bootstrappingchecklist.github.io/master/K12%20E-Badge.jpg" />
-      </p>
-        
-          <div class="my-4 text-center">    
-             <p>
-                You can download the pdf:
-                <br/>
-                <a href="https://richbaxterca.files.wordpress.com/2018/08/how-to-run-the-bootstrapping-checklist.pdf">How to Run the Bootstrapping Checklist</a>
-            </p>
-            <p>
-                Upload and share a video of your experience running the program on our YouTube Channel (respect student privacy please);
-                <br/>
-                <a href="https://www.youtube.com/channel/UC79NIv2RcgixoRTe4laPh3Q" style="overflow-wrap: break-word;">https://www.youtube.com/channel/UC79NIv2RcgixoRTe4laPh3Q</a>
-            </p>
-            <p>
-                Join our Facebook Group to learn how to run the program in your classroom and to share experiences, successes and challenges.
-                <br/>
-                <a href="https://www.facebook.com/groups/bootstrappingchecklist/" style="overflow-wrap: break-word;">https://www.facebook.com/groups/bootstrappingchecklist/</a>
-            </p>
-            <p>
-                Please Like us on and Follow us on Twitter:
-                <br/>
-                <a href="https://twitter.com/checklist_the?lang=en">https://twitter.com/checklist_the?lang=en</a>
-            </p>
-        </div>
-    </div>
-
-    <div>
-      <p class="text-center">
-        <img data-attachment-id="867" data-permalink="https://richbaxter.ca/2016/11/05/the-bootstrapping-checklist-shortlisted-to-the-2016-wharton-reimagine-education-awards/img_4853-2-2/" data-orig-file="https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg" data-orig-size="2448,3264" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 4S&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1427454110&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.28&quot;,&quot;iso&quot;:&quot;50&quot;,&quot;shutter_speed&quot;:&quot;0.016666666666667&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_4853-2" data-image-description="" data-medium-file="https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=225" data-large-file="https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=604" src="https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=604&#038;h=805" alt="img_4853-2" srcset="https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=604&amp;h=805 604w, https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=1208&amp;h=1610 1208w, https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=113&amp;h=150 113w, https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=225&amp;h=300 225w, https://richbaxterca.files.wordpress.com/2016/11/img_4853-2.jpg?w=768&amp;h=1024 768w" sizes="100vw" />
-    </p>
-    </div>
-
-    <hr />
-
-    <div class="py-1">
-      <p>The Bootstrapping Checklist teaches 21st century skills, including communication, collaboration, critical thinking and creativity. The workflow introduces students to project management, innovation and entrepreneurship and engages them in experiential learning activities related to the STEAM curriculum.</p>
-
-
-      <p>If you have access to cloud computing, [mobile] devices, and internet connectivity, you can run this program at your school and help to grow our community of #bootstrappers – what you also really need is a growth attitude and commitment to yourself, your team, and your community.</p>
-
-      <p>Thank you.</p>
-
-      <p><a href="mailto:richbaxter@bootstrappingchecklist.org">Rich Baxter</a></p>
-
-      <p><a href="https://www.linkedin.com/in/mistaboxta/">LinkedIn</a></p>
-
-      <p>For more information, please visit: <a href="https://iiedu.ca/">https://iiedu.ca/</a></p>
-
-    </div>
-
-    <hr />
-
-    <div class="py-1">
-      <p><i>Rich Baxter is an educator, founder and advocate for social innovation, the arts, and entrepreneurial education. The Bootstrapping Checklist has been Shortlisted in 2020 in the K-12 Catergory and was Shortlisted in the Teaching Delivery Category and Showcased on December 5, 2016 and December 4, 2017 in Philadelphia at the Reimagine Education Awards and exists in the Creative Commons as an open innovation project.</i></p>
-
-
-      <p class="text-center">
-        <img data-attachment-id="866" data-permalink="https://richbaxter.ca/2016/11/05/the-bootstrapping-checklist-shortlisted-to-the-2016-wharton-reimagine-education-awards/reimagine-education-teaching-delivery-award/" data-orig-file="https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png" data-orig-size="600,600" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="reimagine-education-teaching-delivery-award" data-image-description="" data-medium-file="https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png?w=300" data-large-file="https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png?w=300&#038;h=300" src="https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png?w=300&#038;h=300" alt="reimagine-education-teaching-delivery-award" width="300" height="300" srcset="https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png?w=300&amp;h=300 300w, https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png?w=150&amp;h=150 150w, https://richbaxterca.files.wordpress.com/2016/11/reimagine-education-teaching-delivery-award.png 600w" sizes="(max-width: 300px) 100vw, 300px" />
-      </p>
-
-      <p><i>#OpenSource #OpenInnovation #TheBootstrappingChecklist #ReimagineEdu #SocialInnovation #SocEnt #NeverStopInnovating #Entrepreneur #EdTech #Local2Global #Iterate2Innovate</i></p>
-    </div>
-
-    <hr />
-
-    <div class="py-1">
-      <p>Related Media:</p>
-
-      <div class="py-1">
-        <p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FOISEAlumFriends%2Fposts%2F2637797129563975&width=500" width="500" height="503" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></p>
       </div>
 
-      <p><a href="http://www.ednewsdaily.com/21st-century-project-learning-the-bootstrapping-checklist/">http://www.ednewsdaily.com/21st-century-project-learning-the-bootstrapping-checklist/</a></p>
-
-      <p><a href="http://www.ictc-ctic.ca/wharton-qs-stars-reimagine-education-awards-2016-and-the-bootstrapping-checklist/">http://www.ictc-ctic.ca/wharton-qs-stars-reimagine-education-awards-2016-and-the-bootstrapping-checklist/</a></p>
-    </div>
-
-    <hr />
-
-    <div class="py-1">
-
-      <p class="font-italic">*Special thanks to Kristan Uccello, Dr. Paul Kim CTO of GSE at <a href="https://ed.stanford.edu/" target="_blank" rel="noopener noreferrer">Stanford</a>, CTO at TDSB Peter Singh, Salar Chagpar and Marc Lijour at <a href="http://prepr.org/" target="_blank" rel="noopener noreferrer">Prepr.org</a>, Tam Le, and a special thank you to all my #bootstrappers - you know who you are!</p>
-
-    </div>
-
-    <hr />
-
-    <div class="py-1">
-      <div class="font-weight-bold">Share this:</div>
-      <div class="my-2 d-flex">
-        <div class="mr-2">
-          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="The Bootstrapping Checklist" data-url="https://bootstrappingchecklist.org" data-via="mistaboxta">Tweet</a><script async src="https://platform.twitter.com/widgets.js"></script>
+      <!-- START THE PORTFOLIO ITEMS  -->
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/watchout.jpg" alt="Watch Out Image" title="portfolio 1 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/WatchOut.pdf">Watch Out</a></h4>
+                <p>A Virtual Laser Tag Game</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mr-2">
-          <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbootstrappingchecklist.org&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/smartGOGS.png" alt="SmartGOGS Image" title="portfolio 2 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/smartGOGS.pdf">SmartGOGS</a></h4>
+                <p>A company that revolves around custom-made glasses</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="mr-2">
-          <div class="g-plus" data-action="share" data-href="https://bootstrappingchecklist.org"></div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/bookmapper.png" alt="BookMapper Image" title="portfolio 3 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/BookMapper.pdf">BookMapper</a></h4>
+                <p>A book-searching app</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <script type="IN/Share" data-url="https://bootstrappingchecklist.org"></script>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/FTS.png" alt="Forget The Score Image" title="portfolio 4 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/ForgetTheScore.pdf">Forget The Score</a></h4>
+                <p>Keep track of your points while making friends</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/LazeLounges.png" alt="LazeLounges Image" title="portfolio 5 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/LazeLounges.pdf">LazeLounges</a></h4>
+                <p>Canadian furniture corporation preventing dorsopathy and providing comfort</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/TravelBuddy.png" alt="Travel Buddy Image" title="portfolio 6 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/TravelBuddy.pdf">Travel Buddy</a></h4>
+                <p>An Online Platform Dedicated To Travelling.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/SimpleEd.png" alt="Simple Ed Image" title="portfolio 7 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/SimpleEd.pdf">Simple Ed</a></h4>
+                <p>We provide educational resources that grade 6 students need to succeed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/Techminds.png" alt="Techminds Image" title="portfolio 8 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/Techminds.pdf">Techminds</a></h4>
+                <p>TechMinds aims to provide headphones that prevent otalgia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="portfolio-box shadow">
+            <img src="assets/images/projects/longoconvo.png" alt="Longo Convo Image" title="portfolio 9 picture" class="img-fluid">
+            <div class="portfolio-info">
+              <div class="caption">
+                <h4><a href="assets/pdfs/projects/LongoConvo.pdf">Longo Convo</a></h4>
+                <p>This website helps students across the TDSB connect and talk to each other.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
-  </div>
-  <!-- /content -->
+    <!-- About Us -->
+    <section id="about" class="get-started">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold text-capitalize">About Us</h1>
+          <div class="heading-line"></div>
+          <p class="lh-lg">
+            Welcome to the Bootstrapping Checklist 2.0! The work presented on this website represents the hard work of Grade 7 TDSB Virtual School students who worked together and persevered during the Covid-19 pandemic.<br><br>The Bootstrapping Checklist is a way for students to learn about their passions, instead of having to do the traditional way of studying. This means students or whoever is doing bootstrapping will enjoy it and be more passionate about it so they will learn more than they would otherwise!<br><br>Thank you for taking the time to view our work and we hope that we can inspire other #bootstrappers!<br><br>- The students and Mr Baxter of TDSB Grade 7 Virtual School 
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Thanks Section -->
+    <section id="thanks" class="thanks">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+      <div class="container">
+        <div class="row text-center text-white">
+          <h1 class="display-3 fw-bold">Thanks</h1>
+          <hr style="width: 100px; height: 3px; " class="mx-auto">
+          <p class="lead pt-1">Special thanks to Seyon S. for building the new website, and to the Bootstrapping Club and the students of Grade 7 Gifted Virtual School - you are an inspiration. We would also like to thank Kristan Uccello, Dr. Paul Kim CTO of GSE at <a href="https://ed.stanford.edu/">Stanford</a>, CTO at TDSB Peter Singh, Salar Chagpar at <a href="http://prepr.org/">Prepr</a>,  Marc Lijour, Tam Le, Serena Ricci and Jack Moran at <a href="https://www.reimagine-education.com/">Reimagine Education</a>, Warwick Vlantis at the African Coding Network, and Andrew MacLean at <a href="https://hightechu.ca/">HighTechU</a> <br>...and a special thank you to all my #bootstrappers - you know who you are!</p>
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
 
-  <footer class="text-center">
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
-    <br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-  </footer>
+    <!-- The Footer Section -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <!-- CONTENT FOR EMAIL  -->
+          <div class="col-md-12 col-lg-12 contact-box pt-1 d-md-block d-lg-flex d-flex justify-content-center">
+            <div class="contact-box__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                <line x1="3" y1="19" x2="9" y2="13" />
+                <line x1="15" y1="13" x2="21" y2="19" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="mailto:richbaxter@bootstrappingchecklist.org" class="contact-box__info--title">richbaxter@bootstrappingchecklist.org</a>
+              <p class="contact-box__info--subtitle">Online support</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
+      <!-- Social Media -->
+      <div class="footer-sm" style="background-color: #212121;">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              Check Us Out On Social Media
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href="https://www.facebook.com/groups/bootstrappingchecklist/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/checklist_the?lang=en" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.youtube.com/channel/UC79NIv2RcgixoRTe4laPh3Q" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+              <!-- <a href="#"><i class="fab fa-instagram" target="_blank" rel="noopener noreferrer"></i></a> -->
+              <a href="https://github.com/BootstrappingChecklist" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div>
-  <footer class="text-center">
-    <a href="https://www.iubenda.com/privacy-policy/71174516" class="iubenda-white iubenda-embed " title="Privacy Policy">Privacy Policy</a> <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-  </footer>
-</div>
+      <!-- License Info -->
+      <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copyright">
+                This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution-NonCommercial 4.0 International License</a>. | <a href="https://www.iubenda.com/privacy-policy/71174516" id="i_badge-link" title="Privacy Policy" target="_blank">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-</main>
+    <!-- Back to Top Button -->
+    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
 
-
-<!-- scripts-at-body-closing -->
-
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
-
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<script src="//platform.linkedin.com/in.js"></script>
-
-<!-- scripts-at-body-closing -->
-
-<script>
-(() => {
-  const fbPost = (width, height) => (
-    '<iframe src="https://www.facebook.com/plugins/post.php?href=' +
-    'https%3A%2F%2Fwww.facebook.com%2FOISEAlumniFriends%2Fposts%2F1437777742899259' +
-    `&width=${width}&show_text=true&height=${height}&appId" width="${width}" height="${height}"` +
-    'style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>'
-  );
-  let width, height;
-  if (window.innerWidth <= 380) {
-    width = 350;
-    height = 677;
-  } else if (window.innerWidth <= 410) {
-    width = 380;
-    height = 655;
-  } else {
-    width = 552;
-    height = 488;
-  }
-  document.querySelector("#fbPost-anchor").innerHTML = fbPost(width, height);
-})();
-</script>
-
-<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-
-</body>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
